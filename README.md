@@ -2,6 +2,12 @@
 
 Create Form Elements Quickly
 
+# INSTALL 
+
+```
+composer require majorman/formbuilder
+```
+
 
 # USAGE
 
@@ -18,6 +24,14 @@ echo $form = new Form(
 /* Result : <form id="fooID" class="fooClass" method="post" novalidate="0" autocomplete="off" action="foo.php" formenctype="multipart/form-data"> */
 
 ```
+
+## END FORM
+
+```
+
+echo $form->endForm();
+```
+
 
 ## Add Element -> Input
 
